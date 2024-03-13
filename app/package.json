@@ -1,0 +1,19 @@
+{
+    "name": "envoy-secured-app",
+    "version": "1.0.0",
+    "description": "Example Node.js application secured by Envoy",
+    "main": "index.js",
+    "scripts": {
+      "start": "node index.js",
+      "dev": "nodemon index.js"
+    },
+    "dependencies": {
+      "express": "^4.17.1"
+    },
+    "devDependencies": {
+      "nodemon": "^2.0.7"
+    },
+    "author": "",
+    "license": "ISC"
+  }
+  
