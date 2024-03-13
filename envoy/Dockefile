@@ -1,0 +1,5 @@
+FROM envoyproxy/envoy:v1.18.3
+COPY envoy.yaml /etc/envoy/envoy.yaml
+COPY cert.pem /etc/envoy/cert.pem
+COPY key.pem /etc/envoy/key.pem
+CMD /usr/local/bin/envoy -c /etc/envoy/envoy.yaml -l trace
